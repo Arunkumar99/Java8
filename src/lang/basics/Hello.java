@@ -1,4 +1,4 @@
-package com.j8practice.initial;
+package lang.basics;
 
 //Class name should be in caps
 class Hello{
