@@ -25,7 +25,7 @@ public class ContentReader {
 			String line = new String();
 			while ((line=fr.readLine()) != null) { 
 				lines.add(line);
-				metacontent.add(file.getName()+" ["+(++lineNumber)+"] "+" ("+file.length()+" bytes)");
+				metacontent.add(file.getName()+" [L-"+(++lineNumber));
 			}
 			fr.close();
 			return lines;

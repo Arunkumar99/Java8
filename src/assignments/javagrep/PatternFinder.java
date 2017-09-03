@@ -17,8 +17,8 @@ public class PatternFinder {
 		for(String line:content) {
 			int i = content.indexOf(line);
 			if(line.contains(pattern)) {
-				foundcontent.add("\\e[31"+metacontent.get(i)+" : \\e[0m"+line);
-			}
+				foundcontent.add(metacontent.get(i)+" C-"+line.indexOf(pattern)+"]"+" : "+line);
+			} 
 		}
 		if(foundcontent.isEmpty())
 			return null;
