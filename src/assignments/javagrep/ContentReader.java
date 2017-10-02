@@ -35,8 +35,8 @@ public class ContentReader {
 		return null;
 	}
 
-	private File[] listDirectory(File file) {
-		return file.listFiles();
+	private File[] listDirectory(File folder) {
+		return folder.listFiles();
 	}
 
 	private ArrayList<String> readDirectory(File file) {
