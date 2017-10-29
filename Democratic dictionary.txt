@@ -1,0 +1,19 @@
+
+Democratic Dictionary is the world's largest dictionary. This dictionary has millions of users visiting its website on daily basis. Apart from individual users, it also does commercial api liscensing for other websites and mobile apps. Over the time, due to its popularity, many apps in the mobile markets started to use its api. But in 2005, due to some technical reasons Democratic Dictionary wanted to deprecate some urls and change the URL structures of the api. But since many app developers have hard coded the URL's it had to request thousands of apps to update their code, which was not very successful. So, they had to serve two versions of the api for backwards compatibility. So to avoid this problem for future releases they wanted to design the api in such a way that the clients need not remember the URL structures and make the updates as seemless as possible without requesting the developers to update their apps.
+
+So they want to take first step towards that, they are just expecting to solve this hard coding problem in this version.
+
+Please help them design such an api with following requirements.
+
+
+Dictionary:
+
+ 1. Each word may have some list of meanings
+ 2. Each word may have some list of antonyms
+ 3. The representation of the response should be in json format.
+ 4. Each respsonse should have the list of meanings and also relations i.e., synonyms and antonyms
+ 5. Each relation item should have link to it so that the app developers need not remember the structure.
+
+
+
+Please do resource modelling for such an api. Implement it using jersey. 
